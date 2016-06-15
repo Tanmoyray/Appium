@@ -1,8 +1,12 @@
 package test1;
 
+import org.testng.annotations.Test;
+
 public class fiestclass1 {
 
-	public static void main(String[] args) {
+	
+	@Test
+	public void JenkingTest(){
 		// TODO Auto-generated method stub
 	System.out.println("Test Git");
 	System.out.println("add new Git1");
